@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Dysan\'s Site',
   tagline: 'A place to document discoveries and projects',
-  url: 'https://dysantr.github.io/',
+  url: 'https://dysntr.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,9 +16,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dysantr', // Usually your GitHub org/user name.
-  projectName: 'dysantr.github.io', // Usually your repo name.
-
+  organizationName: 'dysntr', // Usually your GitHub org/user name.
+  projectName: 'dysntr.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dysantr/dysantr.github.io',
+            'https://github.com/dysntr/dysntr.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dysantr/dysantr.github.io',
+            'https://github.com/dysntr/dysntr.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/dysantr/dysantr.github.io',
+            href: 'https://github.com/dysntr/dysntr.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/dysantr/dysantr.github.io',
+                href: 'https://github.com/dysntr/dysntr.github.io',
               },
             ],
           },

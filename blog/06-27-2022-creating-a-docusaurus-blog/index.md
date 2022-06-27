@@ -64,7 +64,7 @@ Here are some of the information you need to setup the config:
 
 **organizationName**: Usually your GitHub org/user name (eg. `dysntr`).
 
-**deploymentBranch**: The branch to generate the static pages to (Defaults to 'gh-pages')
+**deploymentBranch**: The branch to generate the static pages to (eg. `deploymentBranch: 'gh-pages',`)
 
 **presets docs/blog editUrl**: Link to the github repo (eg. `https://github.com/dysntr/dysntr.github.io`)
 
@@ -173,6 +173,7 @@ git branch -M main
 git remote add origin https://github.com/dysntr/dysntr.github.io.git
 git push -u origin main
 ```
+
 To deploy the website run `GIT_USER=<GITHUB_USERNAME> yarn deploy` eg. `GIT_USER=dysntr yarn deploy`
 
 For more details on deployment refer to [link](https://docusaurus.io/docs/deployment).
