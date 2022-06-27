@@ -173,10 +173,7 @@ git branch -M main
 git remote add origin https://github.com/dysntr/dysntr.github.io.git
 git push -u origin main
 ```
-
-
-
-
+To deploy the website run `GIT_USER=<GITHUB_USERNAME> yarn deploy` eg. `GIT_USER=dysntr yarn deploy`
 
 For more details on deployment refer to [link](https://docusaurus.io/docs/deployment).
 
