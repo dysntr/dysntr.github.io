@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Dysan\'s Site',
   tagline: 'A place to document discoveries and projects',
-  url: 'https://dysntr.github.io/',
+  url: 'https://dysntr.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
